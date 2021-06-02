@@ -62,7 +62,7 @@ class FirstFragment : Fragment() {
                 .show()
             false
         }
-        else if (minStr.toInt() > maxStr.toInt()) {
+        else if (minStr.toInt() >= maxStr.toInt()) {
             Toast.makeText(requireContext(), "The minimal value must be less than the maximal", Toast.LENGTH_SHORT)
                 .show()
             false
